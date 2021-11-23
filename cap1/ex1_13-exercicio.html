@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*Elabore um programa para um loja, o qual leia o preço de um produto e informe as opções de pagamento da loja. Calcule e informe o valor para pagamento á vista com 10% de desconto e o valor em 3x*/
+
+        var preco = Number(prompt(`Qual o valor do produto?  `))
+        var vista = (preco * 0.90) - preco
+        var vista1 = vista + preco 
+        var prazo = preco / 3
+        alert(`O valor do produto é : ${preco} \n a vista é : ${vista1} \n prazo fico 3x de : ${prazo.toFixed(2)} `)
+    </script>
+</body>
+</html>
