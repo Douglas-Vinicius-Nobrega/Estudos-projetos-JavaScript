@@ -1,0 +1,9 @@
+img {
+    float: left; /*Para alinhar a esquerda*/
+    height: 300px; /*Altura*/
+    width: 300px; /*Largura*/
+}
+
+h1 {
+    border-bottom-style: inset; /*Linha horizontal no h1*/
+}
