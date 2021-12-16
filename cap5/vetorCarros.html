@@ -1,0 +1,35 @@
+<script>
+    var carros = []
+    carros.push({ modelo: "Fusca", preco: 6500})
+    carros.push({ modelo: "Escort", preco: 7800})
+
+    for (var i = 0; i < carros.length; i++)
+    alert(carros[i].modelo + " - R$: " + carros[i].preco)
+</script>
+
+
+<script>
+    var idades = [12, 20, 15, 17, 14]
+    for ( var i = 0; i < idades.length; i++) {
+        if (idades[i] >= 18) { // idade maior que 18 anos, que estão no array
+            alert(idades[i]) 
+        }
+    }
+</script>
+
+<script>
+    var idades = [12, 16, 15, 17, 14]
+
+    var maiores = false 
+
+    for (var i = 0; i < idades.length; i++) {
+        if (idades[i] >= 18) {
+            alert(idades[i])
+            maiores = true
+        }
+    }
+
+    if (!maiores) {
+        alert('Não há idades maiores que 18 na lista')
+    }
+</script>
